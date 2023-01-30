@@ -132,6 +132,9 @@ height: 20px;
 opacity: 1;
 
 }
+.l1{
+    background-color: #FFF3F4;
+}
 .l1 p{
     margin-top: 33px;
     margin-left: 12px;
@@ -140,12 +143,13 @@ opacity: 1;
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
-    color: #3E3E3E;
+    
+    color: #C8242F;
     opacity: 1;
 }
 .l2 {
     display:flex;
-    background-color: #FFF3F4;
+    
 }
 
 .l2 img{
@@ -168,7 +172,7 @@ height: 21px;
 text-align: left;
 font: normal normal normal 16px/21px Roboto;
 letter-spacing: 0px;
-color: #C8242F;
+
 opacity: 1;
 flex: left;
 }
@@ -317,6 +321,10 @@ color: #000000;
 opacity: 1;
 position: absolute;
 }
+
+.flx{
+    display:flex;
+}
 .nprod{
 display: flex;
 margin-top: 102px;
@@ -328,6 +336,7 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 5px;
 opacity: 1;
 }
+
 
 .im{
 margin-top: 41px;
@@ -354,7 +363,7 @@ opacity: 1;
 .text {
 
     margin-top: 61px;
-    
+    margin-left: -90px;
     width: 94px;
 height: 20px;
 /* UI Properties */
@@ -367,14 +376,304 @@ opacity: 1;
 
 .aprod{
 
+    display: flex;
     margin-top: 102px;
-    margin-left: 50px;
-width: 219px;
-height: 116px;
+    margin-left: 30px;
+    width: 219px;
+    height: 116px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    }
+
+
+
+
+.tprod
+{
+    
+    display: flex;
+    margin-top: 102px;
+    margin-left: 30px;
+    width: 219px;
+    height: 116px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.tday{
+    display: flex;
+    margin-top: 102px;
+    margin-left: 30px;
+    width: 219px;
+    height: 116px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+.total{
+    display: flex;
+    margin-top: 102px;
+    margin-left: 30px;
+    width: 219px;
+    height: 116px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.chart{
+    display: flex;
+
+}
+
+.chart1{
+   margin-top: 30px;
+   margin-left: 50px;
+width: 802px;
+height: 400px;
 /* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border-radius: 5px;
 opacity: 1;
-position: absolute;
+}
 
+.chart1 img{
+    margin-top: 45px;
+    margin-left: 45px;
+    width: 700px;
+    height: 250pxpx;
+    opacity: 1;
+
+}
+.chart h3{
+    margin-top: 23px;
+    margin-left: 29px;
+    width: 43px;
+    height: 29px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+    position: absolute;
+}
+.chart1 h6{
+  
+    position: relative;
+    margin-top: 24px;
+margin-left:740px;
+width: 33px;
+height: 16px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #C8242F;
+text-decoration: underline #C8242F;
+padding-bottom: 2px;
+opacity: 1;
+}
+
+.chart h5{
+    margin-top: 24px;
+    margin-left:612px;
+width: 108px;
+height: 16px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #ADADAD;
+opacity: 1;
+}
+
+.chart2{
+    margin-top: 32px;
+margin-left: 30px;
+width: 385px;
+height: 398px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+}
+.chart2 h6{
+    position: relative;
+    margin-top:21px;
+    margin-left: 69px;
+width: 165px;
+height: 29px;
+/* UI Properties */
+text-align: left;
+font: normal normal medium 22px/29px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+
+}
+.impie img{
+    align-items: center;
+    margin-left: 100px;
+    width: 230px;
+    height: 250px;
+    opacity: 1;
+
+}
+
+
+.dotred {
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 49px;
+     width: 18px;
+    height: 18px;
+    /* UI Properties */
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 1;
+    display: inline-block;
+
+}
+
+.dotgreen{
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 49px;
+     width: 18px;
+    height: 18px;
+    
+    background: #A2B86C 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 1;
+    display: inline-block;
+}
+/*
+.dotorng{
+    margin-top: 22px;
+    margin-left: 49px;
+    width: 18px;
+    height: 18px;
+   
+    background: #F16C20 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 1;
+    display: inline-block;
+}
+
+.dotyell{
+    margin-top:22px;
+    margin-left: 49px;
+    width: 18px;
+    height: 18px;
+     UI Properties
+    background: #EBC844 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    opacity: 1;
+    display: inline-block;
+
+}
+*/
+.us{
+    margin-top:  21px;
+margin-left: 76px;
+width: 166px;
+height: 20px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 15px/20px Roboto;
+letter-spacing: 0px;
+color: #3E3E3E;
+opacity: 1;
+}
+.ca{
+    margin-top:  21px;
+margin-left: 13px;
+width: 18px;
+height: 18px;
+/* UI Properties */
+background: #A2B86C 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.aa {
+      
+    position: relative;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 1217px;
+    height: 558px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    
+    }
+  
+
+    
+    .t1 tr{
+    
+    margin-top: 36px;
+    margin-left: 40px;
+    width: 50px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 15px/20px Roboto;
+    letter-spacing: 1.5px;
+    color: #ADADAD;
+    opacity: 1;
+    }
+    
+    #m1{
+        width: 64px;
+        height: 31px;
+        background: #EBFFEF;
+        background-size: 50px 50px;
+        color: #3CDD5F;
+        border-radius: 5px;
+        opacity: 1;
+    }
+    
+    #f2{
+
+
+    
+    width: 64px;
+    height: 31px;
+    background: #FFF5F5 0% 0% no-repeat padding-box;
+    background-size: 50px 50px;
+    color: #FF4545;
+    border-radius: 5px;
+    opacity: 1;
+    }
+    
+    #pd1{
+    
+
+        width: 64px;
+        height: 31px;
+        background: #F8F8F8 0% 0% no-repeat padding-box;
+        background-size: 50px 50px;
+        color: #BABABA;
+        border-radius: 5px;
+        opacity: 1;
+    }
+.xy{
+   margin-top: -17px;
+   margin-left: 1144px;
+width: 43px;
+height: 16px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 12px/16px Roboto;
+letter-spacing: 0px;
+color: #C8242F;
+opacity: 1;
 }

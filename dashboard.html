@@ -5,9 +5,9 @@
         <meta charset="UTF-8" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
      <link href="./css/dashboard.css" type="text/css" rel="stylesheet" >
-     <link rel="stylesheet" href="css/bootstrap.min.css">
+     
     
 </head>
 
@@ -39,11 +39,11 @@
         <div class="s1">
           <ul class="sid">
             <li class="l1">
-                <img src="./images/dashboard-default.svg"> <p>Dashboard</p>
+                <img src="./images/dashboard-active.svg"> <p>Dashboard</p>
             </li>
             
             <li class="l2">
-                <img  src="./images/graph-active.svg"> <p>Analysis</p>
+                <img  src="./images/graph-default.svg"> <p>Analysis</p>
             </li>
            
             <li class="l3">
@@ -73,7 +73,7 @@
             <div class="cont">
 
                 <h5>Dashboard</h5>
-
+<div class="flx">
              <div class="nprod">
                 <img src="./images/star.svg" alt="star" class="im">
                 <p class="nume"><b>23,456</b></p>
@@ -84,11 +84,13 @@
                 <p class="nume"><b>2345</b></p>
                 <p class="text">Added Products</p>
             </div>
+           
             <div class="tprod">
                 <img src="./images/total-product.svg" alt="total-product" class="im">
-                <p class="nume"><b>456</b></p>
+                <p class="nume"><b>32,456</b></p>
                 <p class="text">Total Products</p>
             </div>
+            
             <div class="tday">
                 <img src="./images/dollar-filled.svg" alt="dollar-filled" class="im">
                 <p class="nume"><b>5678</b></p>
@@ -96,13 +98,141 @@
             </div>
             <div class="total">
                 <img src="./images/money-bag.svg" alt="money-bag" class="im">
-                <p class="nume"><b>5342</b></p>
+                <p class="nume"><b>33,5342</b></p>
                 <p class="text">Toatal Sale</p>
-            </div>
+            </div> 
                 
+        </div>
+
+        <div class="chart">
+        
+             <div class="chart1">
+                <h3>Sale</h3>
+                <h5>Weekly  Monthly</h5>
+                <h6>Yearly</h6>
+                <img src="./images/data-graph.png">
             </div>
+                  <div class="chart2">
+                <h6><b>Sales by Country</b></h6>
+                  <div class="impie"> <img src="./images/pie-chart.svg">
+                  </div>
+               
+                
+                     <div class="chart3">
+                            <span class="dotred"></span><div class="us">United States of America</div>
+                             <span class="dotgreen"><div class="cana">Russia</div>
+                                <span class="dotorng"></span><div class="rus">Canada</h6>
+                              <span class="dotyell"><div class="ind">India</div>
+                            
+                    </div>
+                     </div>
+                 
+                   </div>
+        </div>
+
+        <div class="aa">
+
+            <table class="table caption-top  text-nowrap table.responsive">
+                
+         <caption id="abc"><b>INVOICE <h6 class="xy">View All</h6></b></caption>
+           <tr class="t1.me-5">
+             <td scope="col">INVOICE</td>
+             <td scope="col" id="w1" >COMPANY NAME</td>
+             <td scope="col" id="w3">EMAIL</td>
+             <td scope="col">DUE DATE</td>
+             <td scope="col">STATUS</td>
+             <td scope="col">AMOUNT</td>
+           </tr>
+         <tbody >
+           <tr>
+             <td scope="row">651535</td>
+             <td>Public Adjusting Firm</td>
+             <td>georgia.young@example.com</td>
+             <td>24 May, 2020</td>
+             <td><div id="m1">paid</div></td>
+             <td>$47,800</td>
+           </tr>
+           <tr>
+             <td scope="row">558612</td>
+             <td>Other</td>
+             <td>jessical.hanson@example.com</td>
+             <td>24 May,2020</td>
+             <td><div id="m1">paid</div></td>
+             <td>$20,900</td>
+           </tr>
+           <tr>
+             <td scope="row">558612</td>
+             <td>Vendor</td>
+             <td>alma.lawson@example.com</td>
+             <td>22 Oct,2020</td>
+             <td><div id="m1">paid</div></td>
+             <td>$10,570</td>
+           </tr>
+       
+        <tr>
+             <td scope="row">558612</td>
+             <td>Property Management Company</td>
+             <td>kenzi.lawson@example.com</td>
+             <td>22 Oct, 2020</td>
+             <td><div id="m1">paid</div></td>
+             <td>$10,570</td>
+           </tr>
+       
+       
+          <tr>
+             <td scope="row">651535</td>
+             <td>Subcontractor Company</td>
+             <td>jackson.graham@example.com</td>
+             <td>1 Feb, 2020</td>
+             <td><div id="f2">Failed</div></td>
+             <td>$10,200</td>
+           </tr>
+        
+         <tr>
+             <td scope="row">653518</td>
+             <td>Mortgage Company</td>
+             <td>felicia.reid@example.com</td>
+             <td>22 Oct, 2020</td>
+             <td><div id="pd1">Padding</div></td>
+             <td>$12,600</td>
+           </tr>
+       
+       
+           <tr>
+             <td scope="row">487441</td>
+             <td>TPA</td>
+             <td>dolores.chambers@example.com</td>
+             <td>21 Sep, 2020</td>
+             <td><div id="m1">paid</div></td>
+             <td>$11,170</td>
+           </tr>
+       
+           <tr>
+             <td scope="row">267400</td>
+             <td>Fire Department</td>
+             <td>nevaeh.simmons@example.com</td>
+             <td>17 Oct, 2020</td>
+             <td><div id="f2">Failed</div></td></td>
+             <td>$28,000</td>
+           </tr>
+       
+           <tr>
+             <td scope="row">449003</td>
+             <td>Insurance Carrier</td>
+             <td>curtis.weaver@example.com</td>
+             <td>21 Sep, 2020</td>
+             <td><div id="m1">paid</div></td>
+             <td>$10,000</td>
+           </tr>
+       
+         </tbody>
+       </table>
             
-             
+        </div>
+
+
+            
+ </div>          
       
                  
     </div>
