@@ -5,8 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+
+    
  <link rel="stylesheet" href="./css/bootstrap.min.css">
-     <link href="css/innerpage.css" type="text/css" rel="stylesheet" >
+ <link type="text/css" rel="stylesheet"  href="./css/innerpage.css"  >
+ <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+    
     
     
 </head>
@@ -18,21 +22,26 @@
         
             <div class="navbar-brand">
                 
+            
                 <img class="mbar" src="./images/menu-bar.svg" alt="menubar">
 
                 <img class="hlogo" src="./images/header-logo.svg" alt="company logo">
                 
                 <img class="searicon" src="./images/search-icon.svg">
-            
+                 
                 <p class="search">Search</p>
-
+              
+            
+               
+                
                 <img class="notification" src="./images/notification-icon.svg" alt="notification"> 
-
+               
                 <img class="profile" src="./images/profile.png" alt="profile">
 
                 <p class="profilenm">John Doe</p>
 
                 <img class="downarrow" src="./images/downward-arrow.svg">
+              
 
             </div>
            
@@ -80,8 +89,10 @@
                         <h5><b>One Column</b> </h5>
                 
                  <form>
-                        <input type="text" id="name" placeholder="   Name">
-
+                  <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="   Name">
+                  </div>
+                  
                         <input type="text" id="dropdown" placeholder="  Dropdown ">
 
                         <input id="tarea"  type="text" name="name" rows="4" cols="30" placeholder="  Multiple line">
@@ -89,11 +100,17 @@
                      <p><b> Two Column </b></p>
 
                      <input type="text" placeholder="  Name" id="mn" >
-                
-                   <!-- <fieldset>
-                         <legend class="ss">Username</legend> -->
-                          <input type="text" placeholder="  Johndon" id="mn" >
-                    <!-- </fieldset> -->
+                  <!--
+                     <form>
+                      <div class="group">
+                           <label>First name</label>
+                           <input type="text" class="" id="mn">
+                      </div>
+                  </form>
+                  -->
+                          <input type="text" placeholder="  Johndon" id="mn" > 
+                   
+                   
                     
                       
                   
@@ -102,12 +119,11 @@
                      <input type="text" id="drop" placeholder="  Dropdown ">
 
                      
-                  
-                     
                          <div class="threecl">
                             <p><b>Three Column</b></p>
                           </div>
-
+                          
+                          
                           <input type="text" id="tx1">
                           <input type="password" id="pass">
                           <input type="text" id="tx2">
@@ -141,7 +157,7 @@
             </div>
             
             <div class="fil">
-                <input type="button"  value="        Upload"  >
+                <input type="button"  value="       Upload">
                 <p>No item Selected</p>
             </div>
 
