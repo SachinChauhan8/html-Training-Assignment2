@@ -147,7 +147,28 @@ opacity: 1;
 
 
 }
-
+@media screen and (max-width: 1000px) {
+    .sid {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .sid li {
+      float: left;
+    }
+  
+    div.content {
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sid li {
+      text-align: center;
+      float: none;
+    }
+  }
 .l1{
     display: flex;
     margin-bottom: 10px;
